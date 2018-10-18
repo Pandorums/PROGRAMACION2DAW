@@ -85,7 +85,7 @@
       </tr>
       <tr>
         <td>\${(10*10) ne 100}</td>
-        <td>${(10*10) ne 100}</td>
+        <td>${(10*10)  ne 100}</td>
       </tr>
     </table>
       </code>
@@ -99,15 +99,15 @@
           </thead>
           <tr>
             <td>\${'a' &lt; 'b'}</td>
-            <td>${'a' < 'b'}</td>
+            <td>${a < 'b'}</td>
           </tr>
           <tr>
             <td>\${'hip' &gt; 'hit'}</td>
-            <td>${'hip' > 'hit'}</td>
+            <td>${hip > 'hit'}</td>
           </tr>
           <tr>
             <td>\${'4' &gt; 3}</td>
-            <td>${'4' > 3}</td>
+            <td>${4 > 3}</td>
           </tr>
         </table>
       </code>
